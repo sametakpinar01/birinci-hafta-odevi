@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Kişisel Web Sayfam</title>
+   <link rel="icon" type="image/png" href="/images/cv.png">
+   <style>
+      body {
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+         background-color: #f4f4f4;
+         display: flex;
+         flex-direction: column;
+         min-height: 100vh;
+      }
+
+      .container {
+         width: 80%;
+         max-width: 1000px;
+         margin: auto;
+         flex: 1;
+      }
+
+      header {
+         background-color: #2000c2;
+         color: white;
+         text-align: center;
+         padding: 20px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+      }
+
+      header h1 {
+         display: flex;
+         align-items: center;
+         font-size: 24px;
+         margin-bottom: 5px;
+      }
+
+      header h1 img {
+         margin-right: 10px;
+         width: 70px;
+         height: 70px;
+      }
+
+      header p {
+         font-size: 16px;
+         margin: 0;
+      }
+
+      nav ul {
+         list-style: none;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         background-color: #2000c2;
+      }
+
+      nav ul li {
+         margin: 0 15px;
+      }
+
+      nav ul li a {
+         color: white;
+         text-decoration: none;
+         padding: 10px;
+         display: block;
+      }
+
+      section {
+         padding: 20px;
+         background-color: white;
+         margin: 20px auto;
+         border-radius: 8px;
+         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+td:nth-child(3), th:nth-child(3) {
+    text-align: center;
+}
+
+
+      footer {
+         background-color: #2000c2;
+         color: white;
+         text-align: center;
+         padding: 10px;
+         margin-top: auto;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="container">
+      <header>
+         <h1><img src="/images/website-logo.png" alt="Logo"> Samet Akpınar<h1>
+               <p>Yazılım Geliştirici | Web ve Otomasyon Çözümleri</p>
+      </header>
+
+      <nav>
+         <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="egitim.html">Eğitim</a></li>
+            <li><a href="yetenekler.html">Yetenekler</a></li>
+            <li><a href="projeler.html">Projeler</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+         </ul>
+      </nav>
+
+      <section>
+         <h2 style="text-align: center;">Eğitim Geçmişim</h2>
+         <p>Öğrenme hayatım boyunca birçok farklı alanda eğitim aldım. Hem akademik hem de profesyonel eğitimler alarak yazılım
+            geliştirme, veri analizi, web tasarımı ve otomasyon gibi alanlarda uzmanlaşmaya odaklandım. Eğitim sürecim boyunca
+            edindiğim bilgiler, gerçek dünya projelerine uygulama yaparak pekiştirildi. Aşağıda, akademik ve profesyonel
+            eğitim geçmişim detaylı bir şekilde yer almaktadır.</p>
+         <table>
+            <tr>
+               <th>Eğitim Kurumu</th>
+               <th>Bölüm</th>
+               <th>Dönem</th>
+               <th>Açıklama</th>
+            </tr>
+            <tr>
+               <td>ABC Üniversitesi</td>
+               <td>Bilgisayar Mühendisliği</td>
+               <td>2015<br>2019</td>
+               <td>Bilgisayar bilimleri, algoritmalar ve yazılım geliştirme üzerine eğitim aldım.</td>
+            </tr>
+            <tr>
+               <td>XYZ Akademi</td>
+               <td>Web Geliştirme</td>
+               <td>2020<br>2021</td>
+               <td>HTML, CSS, JavaScript ve React üzerine detaylı eğitim programı.</td>
+            </tr>
+            <tr>
+               <td>Kodlama Bootcamp</td>
+               <td>Python ve Veri Analizi</td>
+               <td>2021<br>2022</td>
+               <td>Veri bilimi, makine öğrenimi ve Python programlama eğitimi.</td>
+            </tr>
+         </table>
+      
+         <h3>Diğer Sertifikalar ve Kurslar</h3>
+         <table>
+            <tr>
+               <th>Kurs Adı</th>
+               <th>Kuruluş</th>
+               <th>Yıl</th>
+               <th>Kapsam</th>
+            </tr>
+            <tr>
+               <td>Veri Analitiği</td>
+               <td>Coursera</td>
+               <td>2022</td>
+               <td>SQL, Tableau, veri temizleme ve analitik raporlama.</td>
+            </tr>
+            <tr>
+               <td>Mobil Uygulama Geliştirme</td>
+               <td>Udemy</td>
+               <td>2023</td>
+               <td>Flutter ve React Native ile mobil uygulamalar geliştirme.</td>
+            </tr>
+         </table>
+      </section>
+   </div>
+
+   <footer>
+      <p>Hazırlayan: Samet Akpınar | &copy; 2025</p>
+   </footer>
+</body>
+
+</html>
